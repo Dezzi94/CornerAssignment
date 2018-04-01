@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-      <group android android:checkableBehavior="Single">
-          
 
-      </group>
+    <!--//Creates group with list of iteams for navbar. Will be clickable pages or fragments-->
+    <group android:checkableBehavior="Single">
+        <item
+            android:id="@+id/profile_nav"
+            android:icon="@drawable/ic_profile_nav"
+            android:title="Profile" />
+
+        <item
+            android:id="@+id/cloud_upload_nav"
+            android:icon="@drawable/ic_cloud_upload_nav"
+            android:title="Upload Data To PC" />
+
+        <item
+            android:id="@+id/bug_nav"
+            android:icon="@drawable/ic_bug_report_nav"
+            android:title="Report Bug" />
+    </group>
 </menu>
