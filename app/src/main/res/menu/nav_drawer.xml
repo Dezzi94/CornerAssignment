@@ -13,8 +13,21 @@
             android:title="Upload Data" />
 
         <item
-            android:id="@+id/img_BugReport"
+            android:id="@+id/imgBugReport"
             android:icon="@drawable/ic_bug_report_nav"
             android:title="Report Bug" />
     </group>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/imgSettings"
+                android:icon="@drawable/ic_settings"
+                android:title="Settings" />
+            <item
+                android:id="@+id/imgMyStat"
+                android:icon="@drawable/ic_mystats"
+                android:title="My Stats" />
+        </menu>
+    </item>
 </menu>
